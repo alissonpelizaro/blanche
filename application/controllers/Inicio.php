@@ -7,7 +7,7 @@ class Inicio extends CI_Controller {
 	 * Classe de controle principal
 	 */
 	public function index(){
-		if(!isset($_SESSION['logged'])){
+		if(isset($_SESSION['logged'])){
 			//echo base_url();
 			$this->load->view('login');
 		} else {
