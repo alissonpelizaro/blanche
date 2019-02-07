@@ -1,4 +1,6 @@
 <?php
+
+//Jogar esse array em helper
 $page = (object) array(
     'title' => 'Blanche Turismo - Titulo dinâmico'
 );
